@@ -1,0 +1,20 @@
+{
+  "model": {
+      "757862": {
+        "Id" : "757862",
+        "Name" : "Паучи Hill's Science Plan Adult Perfect Weight для кошек с избыточным весом (85 г, Лосось)",
+        "Price" : "9.99"
+      },
+      "757863" : {
+        "Name" : "Паучи Hill's Science Plan Adult Perfect Weight для кошек с избыточным весом (85 г, Лосось)",
+        "Id" : "757863",
+        "ProductId" : "140896",
+        "Price" : "0",
+        "ImagePath" : "upload/resize_cache/iblock/a26/110_110_1/a263d76bd05200df9d5077244e18763d.jpg",
+        "Props" : "Вкус: Лосось",
+        "Quantity" : "1",
+        "Round" : false
+
+      }
+  }
+}

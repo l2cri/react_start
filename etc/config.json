@@ -1,0 +1,9 @@
+{
+  "production": {
+    "apiGetList": "https://some-url.ru/dir/api/getJson"
+  },
+  "developer": {
+    "apiGetList": "/examples/getList.json"
+  }
+
+}

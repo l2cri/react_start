@@ -1,0 +1,53 @@
+{
+  "name": "react_start",
+  "version": "1.0.0",
+  "description": "quick start react",
+  "main": "index.js",
+  "scripts": {
+    "devserver": "PATH_ROUTER=/credit/ webpack-dev-server -d --progress --debug --hot --history-api-fallback --devtool eval-source-map --output-pathinfo --watch --colors --inline --content-base public --port 8090 --host 0.0.0.0",
+    "production": "NODE_ENV=production PROD_ENV=1 PATH_ROUTER=/credit/ webpack"
+   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l2cri/react_start.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "start",
+    "webpack"
+  ],
+  "author": "l2cri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/l2cri/react_start/issues"
+  },
+  "homepage": "https://github.com/l2cri/react_start#readme",
+  "dependencies": {
+    "axios": "^0.15.*",
+    "babel-polyfill": "^6.23.0",
+    "create-redux-reducer": "latest",
+    "keymirror": "^0.1.1",
+    "react": "^15.0.0",
+    "react-dom": "^15.*",
+    "react-redux": "^5.0.0",
+    "react-router": "^3.0.2",
+    "redux": "^3.6.*",
+    "redux-thunk": "^2.2.*"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "*",
+    "babel": "^5.8.20",
+    "babel-loader": "^5.3.2",
+    "css-loader": "^0.26.*",
+    "file-loader": "^0.10.*",
+    "json-loader": "^0.5.4",
+    "react-hot-loader": "^1.3.*",
+    "redux-logger": "^2.8.0",
+    "style-loader": "^0.13.*",
+    "url-loader": "^0.5.*",
+    "webpack": "^1.*",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-merge": "^4.1.0"
+  }
+}
